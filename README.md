@@ -3,5 +3,5 @@
 ## Dev Environment
 
 ### Prerequisites
-* Node
-* Serverless `npm install -g serverless`
+* Docker
+* docker-compose

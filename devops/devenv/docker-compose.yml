@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  api:
+    build:
+      context: ../..
+      dockerfile: devops/devenv/api/Dockerfile
+    volumes:
+      - ../../:/var/task
+    environment:
+      - "STAGE=local"
+      - "AWS_DEFAULT_REGION=us-east-1"
+    ports:
+      - 3000:3000
+    networks:
+      app-network:
+    tty: true
+
+networks:
+  app-network:
+
