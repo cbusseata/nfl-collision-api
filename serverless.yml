@@ -1,0 +1,4 @@
+service: nfl-collision-api
+
+plugins:
+  - serverless-offline
