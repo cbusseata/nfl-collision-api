@@ -5,3 +5,8 @@
 ### Prerequisites
 * Docker
 * docker-compose
+
+### Running the dev environment
+````bash
+Make
+````
