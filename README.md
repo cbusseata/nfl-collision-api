@@ -8,5 +8,5 @@
 
 ### Running the dev environment
 ````bash
-Make
+make
 ````
