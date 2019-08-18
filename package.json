@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/cbusseata/nfl-collision-api#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "serverless-http": "^2.1.0"
   },
   "devDependencies": {
     "serverless-offline": "^5.10.1"

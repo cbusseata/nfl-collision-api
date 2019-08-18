@@ -2,3 +2,16 @@ service: nfl-collision-api
 
 plugins:
   - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  stage: local
+  region: us-east-1
+
+functions:
+  api:
+    handler: src/functions/api.handler
+    events:
+      - http: ANY /
+      - http: 'ANY {proxy+}'
